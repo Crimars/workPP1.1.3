@@ -15,7 +15,7 @@ public class Util {
     private static final String USER = "root1";
     private static final String PASSWORD = "root1";
 
-    // Метод для JDBC
+
     public static Connection getConnection() {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
